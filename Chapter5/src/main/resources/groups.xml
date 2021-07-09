@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/zhanglei/Desktop/kira/workspace/AutoTest/Chapter5/src/main/resources">
+        <classes/>
+    </test>
+    <test name="groups">
+        <groups>
+            <run>
+                <include name="server"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.course.code.groups.GroupsOnMethod"/>
+        </classes>
+    </test>
+
+</suite>

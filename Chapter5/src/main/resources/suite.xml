@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/zhanglei/Desktop/kira/workspace/AutoTest/Chapter5/src/main/resources">
+        <classes/>
+    </test>
+    <test name="pay">
+        <classes>
+            <class name="com.course.code.suite.SuitConfig"/>
+            <class name="com.course.code.suite.PayTest"/>
+        </classes>
+    </test>
+    <test name="login">
+        <classes>
+            <class name="com.course.code.suite.SuitConfig"/>
+            <class name="com.course.code.suite.LoginTest"/>
+        </classes>
+    </test>
+
+</suite>
