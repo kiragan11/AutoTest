@@ -7,14 +7,14 @@
     </test>
     <test name="pay">
         <classes>
-            <class name="com.course.code.suite.SuitConfig"/>
-            <class name="com.course.code.suite.PayTest"/>
+            <class name="com.course.testng.suite.SuitConfig"/>
+            <class name="com.course.testng.suite.PayTest"/>
         </classes>
     </test>
     <test name="login">
         <classes>
-            <class name="com.course.code.suite.SuitConfig"/>
-            <class name="com.course.code.suite.LoginTest"/>
+            <class name="com.course.testng.suite.SuitConfig"/>
+            <class name="com.course.testng.suite.LoginTest"/>
         </classes>
     </test>
 

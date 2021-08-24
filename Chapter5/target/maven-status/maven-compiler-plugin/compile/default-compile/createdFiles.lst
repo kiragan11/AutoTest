@@ -1,0 +1,13 @@
+com/course/code/suite/SuitConfig.class
+com/course/code/TimeOutTest.class
+com/course/code/suite/LoginTest.class
+com/course/code/ExpectedException.class
+com/course/code/multiThread/MultiThreadOnAnnotion.class
+com/course/code/parameter/ParameterTest.class
+com/course/code/DependTest.class
+com/course/code/BasicAnnotation.class
+com/course/code/multiThread/MultiThreadOnXML.class
+com/course/code/parameter/DataProviderTest.class
+com/course/code/multiThread/MultiThreadOnXML2.class
+com/course/code/groups/GroupsOnMethod.class
+com/course/code/suite/PayTest.class

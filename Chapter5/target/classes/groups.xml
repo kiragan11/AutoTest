@@ -12,7 +12,7 @@
             </run>
         </groups>
         <classes>
-            <class name="com.course.code.groups.GroupsOnMethod"/>
+            <class name="com.course.testng.groups.GroupsOnMethod"/>
         </classes>
     </test>
 

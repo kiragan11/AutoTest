@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <suite-files>
+        <suite-file path="suites1.xml"/>
+        <suite-file path="suites2.xml"/>
+    </suite-files>
+    <listeners>
+        <listener class-name="com.course.extent.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
