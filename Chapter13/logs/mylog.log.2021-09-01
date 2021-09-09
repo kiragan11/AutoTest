@@ -1,0 +1,6 @@
+2021-09-01 00:03:55.497 [http-nio-8080-exec-3] INFO  com.course.controller.UserController - cookies验证通过
+2021-09-01 00:03:55.513 [http-nio-8080-exec-3] INFO  com.course.controller.UserController - 获取用户数量：2
+2021-09-01 00:04:26.215 [http-nio-8080-exec-5] INFO  com.course.controller.UserController - cookies验证通过
+2021-09-01 00:04:26.231 [http-nio-8080-exec-5] INFO  com.course.controller.UserController - 获取用户数量：1
+2021-09-01 00:06:45.786 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-09-01 00:06:45.798 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

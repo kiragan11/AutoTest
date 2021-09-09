@@ -1,0 +1,69 @@
+2021-09-07 00:05:19.124 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m56s287ms).
+2021-09-07 02:07:17.316 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h28s157ms).
+2021-09-07 04:07:46.008 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h28s692ms).
+2021-09-07 06:09:04.015 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h17s994ms).
+2021-09-07 08:10:31.426 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h27s393ms).
+2021-09-07 10:11:29.032 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h27s602ms).
+2021-09-07 12:11:56.613 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h27s581ms).
+2021-09-07 14:13:24.160 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h27s540ms).
+2021-09-07 15:33:58.573 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m4s408ms).
+2021-09-07 15:45:34.474 [main] INFO  com.course.Application - Starting Application using Java 1.8.0_112 on zhangleideMBP with PID 8800 (/Users/zhanglei/Desktop/kira/workspace/AutoTest/Chapter13/target/classes started by zhanglei in /Users/zhanglei/Desktop/kira/workspace/AutoTest)
+2021-09-07 15:45:34.482 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2021-09-07 15:45:35.636 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2021-09-07 15:45:36.320 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-09-07 15:45:36.328 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-07 15:45:36.328 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-09-07 15:45:36.398 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-07 15:45:36.398 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1715 ms
+2021-09-07 15:45:36.937 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-07 15:45:37.309 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-09-07 15:45:37.314 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-09-07 15:45:37.327 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-07 15:45:37.344 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-09-07 15:47:59.635 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-09-07 15:47:59.647 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-09-07 15:48:08.146 [main] INFO  com.course.Application - Starting Application using Java 1.8.0_112 on zhangleideMBP with PID 9053 (/Users/zhanglei/Desktop/kira/workspace/AutoTest/Chapter13/target/classes started by zhanglei in /Users/zhanglei/Desktop/kira/workspace/AutoTest)
+2021-09-07 15:48:08.186 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2021-09-07 15:48:09.512 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2021-09-07 15:48:10.103 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-09-07 15:48:10.112 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-07 15:48:10.113 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-09-07 15:48:10.184 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-07 15:48:10.185 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1886 ms
+2021-09-07 15:48:10.704 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-07 15:48:11.141 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-07 15:48:11.142 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-07 15:48:11.153 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-07 15:48:11.181 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-07 15:48:11.383 [main] INFO  com.course.Application - Started Application in 3.793 seconds (JVM running for 4.959)
+2021-09-07 15:48:31.573 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 15:48:31.573 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-07 15:48:31.575 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-09-07 15:48:31.661 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-09-07 15:48:31.792 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-09-07 15:48:31.832 [http-nio-8080-exec-1] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-09-07 15:48:32.179 [http-nio-8080-exec-3] INFO  com.course.controller.UserController - cookies验证通过
+2021-09-07 15:48:32.186 [http-nio-8080-exec-3] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-09-07 15:53:14.880 [http-nio-8080-exec-7] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-09-07 15:53:29.029 [http-nio-8080-exec-1] INFO  com.course.controller.UserController - cookies验证通过
+2021-09-07 15:53:29.035 [http-nio-8080-exec-1] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-09-07 16:15:07.286 [http-nio-8080-exec-3] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-09-07 16:15:07.551 [http-nio-8080-exec-5] INFO  com.course.controller.UserController - cookies验证通过
+2021-09-07 16:15:07.556 [http-nio-8080-exec-5] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-09-07 16:31:12.014 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-09-07 16:31:12.020 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,80 @@
+2021-09-04 00:04:16.334 [main] INFO  com.course.Application - Starting Application using Java 1.8.0_112 on zhangleideMBP with PID 64201 (/Users/zhanglei/Desktop/kira/workspace/AutoTest/Chapter13/target/classes started by zhanglei in /Users/zhanglei/Desktop/kira/workspace/AutoTest)
+2021-09-04 00:04:16.339 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2021-09-04 00:04:17.690 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2021-09-04 00:04:18.421 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-09-04 00:04:18.433 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-04 00:04:18.434 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-09-04 00:04:18.550 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-04 00:04:18.551 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2114 ms
+2021-09-04 00:04:19.436 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-04 00:04:19.875 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 00:04:19.876 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-04 00:04:19.894 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-04 00:04:19.927 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-04 00:04:20.194 [main] INFO  com.course.Application - Started Application in 5.117 seconds (JVM running for 6.531)
+2021-09-04 00:04:39.668 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 00:04:39.668 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-04 00:04:39.671 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-09-04 00:04:39.773 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-09-04 00:04:39.912 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-09-04 00:04:39.956 [http-nio-8080-exec-1] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-09-04 00:06:38.726 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-09-04 00:06:38.739 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-09-04 00:20:02.942 [main] INFO  com.course.Application - Starting Application using Java 1.8.0_112 on zhangleideMBP with PID 65678 (/Users/zhanglei/Desktop/kira/workspace/AutoTest/Chapter13/target/classes started by zhanglei in /Users/zhanglei/Desktop/kira/workspace/AutoTest)
+2021-09-04 00:20:02.957 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2021-09-04 00:20:04.312 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2021-09-04 00:20:04.989 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-09-04 00:20:04.998 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-04 00:20:04.998 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-09-04 00:20:05.071 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-04 00:20:05.071 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1973 ms
+2021-09-04 00:20:05.785 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-04 00:20:06.571 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 00:20:06.572 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-04 00:20:06.594 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-04 00:20:06.673 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-04 00:20:07.052 [main] INFO  com.course.Application - Started Application in 5.229 seconds (JVM running for 7.226)
+2021-09-04 00:20:55.591 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 00:20:55.592 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-04 00:20:55.594 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-09-04 00:20:55.737 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-09-04 00:20:55.888 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-09-04 00:20:55.938 [http-nio-8080-exec-1] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-09-04 00:27:17.256 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-09-04 00:27:17.263 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-09-04 00:32:28.387 [main] INFO  com.course.Application - Starting Application using Java 1.8.0_112 on zhangleideMBP with PID 66817 (/Users/zhanglei/Desktop/kira/workspace/AutoTest/Chapter13/target/classes started by zhanglei in /Users/zhanglei/Desktop/kira/workspace/AutoTest)
+2021-09-04 00:32:28.390 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2021-09-04 00:32:29.767 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2021-09-04 00:32:30.551 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-09-04 00:32:30.560 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-04 00:32:30.560 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-09-04 00:32:30.639 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-04 00:32:30.639 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2164 ms
+2021-09-04 00:32:31.245 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-04 00:32:31.811 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 00:32:31.815 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-04 00:32:31.871 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-04 00:32:31.945 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-04 00:32:32.305 [main] INFO  com.course.Application - Started Application in 4.679 seconds (JVM running for 5.84)
+2021-09-04 00:32:49.821 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 00:32:49.821 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-04 00:32:49.824 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-09-04 00:32:49.919 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-09-04 00:32:50.055 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-09-04 00:32:50.101 [http-nio-8080-exec-1] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-09-04 00:33:02.069 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-09-04 00:33:02.074 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-09-04 00:34:29.559 [main] INFO  com.course.Application - Starting Application using Java 1.8.0_112 on zhangleideMBP with PID 67007 (/Users/zhanglei/Desktop/kira/workspace/AutoTest/Chapter13/target/classes started by zhanglei in /Users/zhanglei/Desktop/kira/workspace/AutoTest)
+2021-09-04 00:34:29.594 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2021-09-04 00:34:30.656 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2021-09-04 00:34:31.302 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-09-04 00:34:31.310 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-04 00:34:31.311 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-09-04 00:34:31.374 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-04 00:34:31.374 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1685 ms
+2021-09-04 00:34:31.981 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-04 00:34:32.387 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 00:34:32.388 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-04 00:34:32.400 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-04 00:34:32.434 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-04 00:34:32.643 [main] INFO  com.course.Application - Started Application in 3.789 seconds (JVM running for 4.976)
