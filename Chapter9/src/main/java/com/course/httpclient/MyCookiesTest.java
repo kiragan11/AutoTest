@@ -76,8 +76,7 @@ public class MyCookiesTest {
 
     @Test(dependsOnMethods = "testGetCookies")
     public void testPostWithCookies() throws IOException {
-        //声明一个client对象，用来执行方法
-        //设置cookies信息
+        //声明一个带CookieStore的client对象，用来执行方法
         HttpClient httpClient = HttpClients.custom().setDefaultCookieStore(cookieStore).build();
         //获取uri
         String uri = resourceBundle.getString("postwithcookies.uri");

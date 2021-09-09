@@ -1,6 +1,9 @@
 package com.course.bean;
 
+import io.swagger.annotations.ApiModelProperty;
+
 public class User {
+    @ApiModelProperty(value = "用户名")
     private String username;
     private String password;
     private String name;
