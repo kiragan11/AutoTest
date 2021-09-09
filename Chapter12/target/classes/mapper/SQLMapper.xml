@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--Mapper元素只有一个属性namespace，它有两个作用：
+一是用于区分不同的mapper（在不同的mapper文件里，子元素的id可以相同，mybatis通过namespace和子元素的id联合区分）
+二是与接口关联（应用程序通过接口访问mybatis时，mybatis通过接口的完整名称查找对应的mapper配置，因此namespace的命名务必小心一定要某接口同名-->
+
+<!--命名空间mapper,如果有多个mapper文件，这个必须唯一-->
+<mapper namespace="com.tester.model">
+
+    <!--登录接口case-->
+    <select id="loginCase" parameterType="Integer" resultType="com.tester.model.LoginCase">
+        select *
+        from loginCase
+        where id = #{id}
+    </select>
+
+    <!--添加用户接口case-->
+    <select id="addUserCase" parameterType="Integer" resultType="com.tester.model.AddUserCase">
+        select *
+        from addUserCase
+        where id = #{id}
+    </select>
+    <!--将用addUserCase已经测试过的用户信息，设置为无效-->
+    <update id="updateAddedUser" parameterType="com.tester.model.AddUserCase">
+        update user
+        set isDelete = 1
+        where username = #{username}
+          and password = #{password}
+          and age = #{age}
+          and sex = #{sex}
+          and permission = #{permission}
+          and isDelete = #{isDelete}
+    </update>
+    <!--获取添加成功的用户信息-->
+    <select id="getAddUser" parameterType="com.tester.model.AddUserCase" resultType="com.tester.model.User">
+        select *
+        from user
+        where username = #{username}
+          and password = #{password}
+          and age = #{age}
+          and sex = #{sex}
+          and permission = #{permission}
+          and isDelete = #{isDelete}
+    </select>
+
+    <!--获取用户信息接口case-->
+    <select id="getUserInfoCase" parameterType="Integer" resultType="com.tester.model.GetUserInfoCase">
+        select *
+        from getUserInfoCase
+        where id = #{id}
+    </select>
+    <!--case的预期getUserInfo-->
+    <select id="getUserInfo" parameterType="com.tester.model.GetUserInfoCase" resultType="com.tester.model.User">
+        select *
+        from user
+        where id = #{userId}
+    </select>
+
+
+    <!--获取用户列表接口case-->
+    <select id="getUserListCase" parameterType="Integer" resultType="com.tester.model.GetUserListCase">
+        select *
+        from getUserListCase
+        where id = #{id}
+    </select>
+    <!--case的预期getUserList-->
+    <select id="getUserList" parameterType="com.tester.model.GetUserListCase" resultType="com.tester.model.User">
+        select * from user
+        <trim prefix="where" suffixOverrides="and">
+            <if test="username!=null and username!=''">username = #{username} and</if>
+            <if test="age!=null and age!=''">age = #{age} and</if>
+            <if test="sex!=null and sex!=''">sex = #{sex} and</if>
+        </trim>
+    </select>
+
+
+    <!--获取用户列表接口case-->
+    <select id="updateUserCase" parameterType="Integer" resultType="com.tester.model.UpdateUserCase">
+        select *
+        from updateUserInfoCase
+        where id = #{id}
+    </select>
+    <!--获取更新后的数据-->
+    <select id="getUpdateUser" parameterType="com.tester.model.UpdateUserCase" resultType="com.tester.model.User">
+        select * from user
+        <trim prefix="where" prefixOverrides="and">
+            <if test="username!=null and username!=''">and username = #{username}</if>
+            <if test="age!=null and age!=''">and age = #{age}</if>
+            <if test="sex!=null and sex!=''">and sex = #{sex}</if>
+            <if test="permission!=null and permission!=''">and permission = #{permission}</if>
+            <if test="isDelete!=null and isDelete!=''">and isDelete = #{isDelete}</if>
+        </trim>
+        and id = #{userId}
+    </select>
+</mapper>

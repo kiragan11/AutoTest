@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="用户管理系统测试套件">
+
+    <test name="用户管理">
+        <classes>
+            <class name="com.tester.cases.LoginTest">
+                <methods>
+                    <include name="loginTrue"/>
+<!--                    <include name="loginFalse"/>-->
+                </methods>
+            </class>
+<!--            <class name="com.tester.cases.AddUserTest">-->
+<!--                <methods>-->
+<!--                    <include name="addUser"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.tester.cases.GetUserInfoTest">-->
+<!--                <methods>-->
+<!--                    <include name="getUserInfo"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.tester.cases.GetUserListTest">-->
+<!--                <methods>-->
+<!--                    <include name="getUserList"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="com.tester.cases.UpdateUserTest">
+                <methods>
+                    <include name="updateUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!--测试报告-->
+    <listeners>
+        <listener class-name="com.tester.config.ExtentTestNGIReporterListener"/>
+    </listeners>
+
+</suite>

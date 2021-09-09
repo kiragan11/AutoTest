@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--    <settings>-->
+<!--        <setting name="localCacheScope" value="STATEMENT"/>-->
+<!--        <setting name="cacheEnabled" value="false"/>-->
+<!--    </settings>-->
+    <!--通过package, 可以直接指定package的名字，mybatis会自动扫描你指定包下面的javabean,
+    并且默认设置一个别名，默认的名字为： javabean的首字母小写的非限定类名来作为它的别名。
+    也可在javabean 加上注解@Alias 来自定义别名， 例如： @Alias(user)
+    <package name="com.dy.entity"/>-->
+
+    <!--注册model中javabean的别名-->
+    <typeAliases>
+        <package name="com.tester.model"/>
+    </typeAliases>
+
+    <!--注册环境：数据库-->
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/autotest?useSSL=false&amp;useUnicode=true&amp;characterEncoding=utf-8"/>
+                <property name="username" value="root"/>
+                <property name="password" value="11111111"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--注册映射文件：java对象与数据库之间的xml文件路径-->
+    <mappers>
+        <mapper resource="mapper/SQLMapper.xml"/>
+    </mappers>
+
+</configuration>
