@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="21.064" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="socksProxyHost" value="127.0.0.1"/>
+    <property name="http.proxyHost" value="127.0.0.1"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/zhanglei/Desktop/kira/workspace/AutoTest/Chapter12/target/test-classes:/Users/zhanglei/Desktop/kira/workspace/AutoTest/Chapter12/target/classes:/Users/zhanglei/.m2/repository/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar:/Users/zhanglei/.m2/repository/mysql/mysql-connector-java/8.0.11/mysql-connector-java-8.0.11.jar:/Users/zhanglei/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/zhanglei/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/zhanglei/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/zhanglei/.m2/repository/com/google/code/gson/gson/2.8.7/gson-2.8.7.jar:/Users/zhanglei/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/zhanglei/.m2/repository/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/Users/zhanglei/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/zhanglei/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/zhanglei/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/Users/zhanglei/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/zhanglei/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/zhanglei/.m2/repository/org/mongodb/bson/4.2.3/bson-4.2.3.jar:/Users/zhanglei/.m2/repository/org/mongodb/mongodb-driver-core/4.2.3/mongodb-driver-core-4.2.3.jar:/Users/zhanglei/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/zhanglei/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/zhanglei/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/zhanglei/.m2/repository/org/xerial/sqlite-jdbc/3.34.0/sqlite-jdbc-3.34.0.jar:"/>
+    <property name="https.proxyPort" value="7890"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/zhanglei/Desktop/kira/workspace/AutoTest/Chapter12/target/surefire/surefirebooter6331991330512323816.jar /Users/zhanglei/Desktop/kira/workspace/AutoTest/Chapter12/target/surefire 2021-12-15T18-47-49_188-jvmRun1 surefire9012261213294260421tmp surefire_08740127918677891739tmp"/>
+    <property name="http.nonProxyHosts" value="192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|127.0.0.1|localhost|*.localhost|local|*.local|timestamp.apple.com|*.timestamp.apple.com"/>
+    <property name="surefire.test.class.path" value="/Users/zhanglei/Desktop/kira/workspace/AutoTest/Chapter12/target/test-classes:/Users/zhanglei/Desktop/kira/workspace/AutoTest/Chapter12/target/classes:/Users/zhanglei/.m2/repository/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar:/Users/zhanglei/.m2/repository/mysql/mysql-connector-java/8.0.11/mysql-connector-java-8.0.11.jar:/Users/zhanglei/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/zhanglei/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/zhanglei/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/zhanglei/.m2/repository/com/google/code/gson/gson/2.8.7/gson-2.8.7.jar:/Users/zhanglei/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/zhanglei/.m2/repository/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/Users/zhanglei/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/zhanglei/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/zhanglei/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/Users/zhanglei/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/zhanglei/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/zhanglei/.m2/repository/org/mongodb/bson/4.2.3/bson-4.2.3.jar:/Users/zhanglei/.m2/repository/org/mongodb/mongodb-driver-core/4.2.3/mongodb-driver-core-4.2.3.jar:/Users/zhanglei/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/zhanglei/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/zhanglei/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/zhanglei/.m2/repository/org/xerial/sqlite-jdbc/3.34.0/sqlite-jdbc-3.34.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/zhanglei"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/zhanglei/Desktop/kira/workspace/AutoTest/Chapter12"/>
+    <property name="https.proxyHost" value="127.0.0.1"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/zhanglei/Desktop/kira/workspace/AutoTest/Chapter12/target/surefire/surefirebooter6331991330512323816.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|127.0.0.1|localhost|*.localhost|local|*.local|timestamp.apple.com|*.timestamp.apple.com"/>
+    <property name="java.runtime.version" value="1.8.0_112-b16"/>
+    <property name="user.name" value="zhanglei"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.12.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/zhanglei/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/h4/cxnpng2d2mq4v6gz12q4d5h40000gn/T/"/>
+    <property name="java.version" value="1.8.0_112"/>
+    <property name="user.dir" value="/Users/zhanglei/Desktop/kira/workspace/AutoTest/Chapter12"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="socksProxyPort" value="7890"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/zhanglei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.112-b16"/>
+    <property name="java.ext.dirs" value="/Users/zhanglei/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|127.0.0.1|localhost|*.localhost|local|*.local|timestamp.apple.com|*.timestamp.apple.com"/>
+    <property name="http.proxyPort" value="7890"/>
+  </properties>
+  <testcase name="loginTrue" classname="com.tester.cases.LoginTest" time="3.873"/>
+  <testcase name="updateUser" classname="com.tester.cases.UpdateUserTest" time="0.228"/>
+</testsuite>

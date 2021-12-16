@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="用户管理系统测试套件" duration-ms="4263" started-at="2021-12-15T18:47:56 CST" finished-at="2021-12-15T18:48:00 CST">
+    <groups>
+      <group name="loginTrue">
+        <method signature="LoginTest.loginTrue()[pri:0, instance:com.tester.cases.LoginTest@d8355a8]" name="loginTrue" class="com.tester.cases.LoginTest"/>
+      </group> <!-- loginTrue -->
+    </groups>
+    <test name="用户管理" duration-ms="4263" started-at="2021-12-15T18:47:56 CST" finished-at="2021-12-15T18:48:00 CST">
+      <class name="com.tester.cases.LoginTest">
+        <test-method status="PASS" signature="loginTrue()[pri:0, instance:com.tester.cases.LoginTest@d8355a8]" name="loginTrue" duration-ms="3855" started-at="2021-12-15T18:47:56 CST" description="登录成功" finished-at="2021-12-15T18:48:00 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTrue -->
+      </class> <!-- com.tester.cases.LoginTest -->
+      <class name="com.tester.cases.UpdateUserTest">
+        <test-method status="PASS" signature="updateUser()[pri:0, instance:com.tester.cases.UpdateUserTest@ae45eb6]" name="updateUser" duration-ms="228" depends-on-groups="loginTrue" started-at="2021-12-15T18:48:00 CST" description="更新用户信息" finished-at="2021-12-15T18:48:00 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+      </class> <!-- com.tester.cases.UpdateUserTest -->
+    </test> <!-- 用户管理 -->
+  </suite> <!-- 用户管理系统测试套件 -->
+</testng-results>

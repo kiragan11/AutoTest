@@ -1,0 +1,148 @@
+2021-12-09 00:35:24.064 [main] WARN  org.springframework.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5026 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2021-12-09 00:35:29.100 [main] INFO  com.course.Application - Starting Application using Java 1.8.0_112 on zhangleideMacBook-Pro.local with PID 15372 (/Users/zhanglei/Desktop/kira/workspace/AutoTest/Chapter13/target/classes started by zhanglei in /Users/zhanglei/Desktop/kira/workspace/AutoTest)
+2021-12-09 00:35:29.101 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2021-12-09 00:35:30.001 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2021-12-09 00:35:30.626 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-09 00:35:30.640 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-09 00:35:30.640 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-12-09 00:35:30.728 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-09 00:35:30.728 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1577 ms
+2021-12-09 00:35:31.445 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-12-09 00:35:31.974 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-09 00:35:31.975 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-12-09 00:35:31.996 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-12-09 00:35:32.055 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-12-09 00:35:32.360 [main] INFO  com.course.Application - Started Application in 23.932 seconds (JVM running for 30.209)
+2021-12-09 00:40:52.738 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-09 00:40:52.738 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-09 00:40:52.740 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-12-09 00:40:52.851 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-09 00:40:53.042 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-09 00:40:53.106 [http-nio-8080-exec-1] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 00:40:53.178 [http-nio-8080-exec-2] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 00:40:53.210 [http-nio-8080-exec-2] INFO  com.course.controller.UserController - 获取用户数量：1
+2021-12-09 00:41:21.126 [http-nio-8080-exec-4] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 00:41:21.167 [http-nio-8080-exec-5] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 00:41:21.170 [http-nio-8080-exec-5] INFO  com.course.controller.UserController - 获取用户数量：1
+2021-12-09 00:41:55.984 [http-nio-8080-exec-7] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 00:44:13.482 [http-nio-8080-exec-9] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 00:44:57.138 [http-nio-8080-exec-1] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 00:46:54.559 [http-nio-8080-exec-3] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 01:06:22.159 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Retrograde clock change detected (housekeeper delta=28s821ms), soft-evicting connections from pool.
+2021-12-09 01:08:44.283 [http-nio-8080-exec-5] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 01:08:44.304 [http-nio-8080-exec-6] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 01:08:44.325 [http-nio-8080-exec-6] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 01:20:55.375 [http-nio-8080-exec-8] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 01:20:55.414 [http-nio-8080-exec-9] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 01:20:55.425 [http-nio-8080-exec-9] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 01:22:30.121 [http-nio-8080-exec-1] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 01:22:30.149 [http-nio-8080-exec-2] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 01:22:30.158 [http-nio-8080-exec-2] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 01:23:36.108 [http-nio-8080-exec-4] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 01:23:36.127 [http-nio-8080-exec-5] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 01:23:36.133 [http-nio-8080-exec-5] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 01:24:06.044 [http-nio-8080-exec-7] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 01:24:06.055 [http-nio-8080-exec-8] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 01:24:06.062 [http-nio-8080-exec-8] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 01:34:06.523 [http-nio-8080-exec-10] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 01:34:06.547 [http-nio-8080-exec-1] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 01:34:06.554 [http-nio-8080-exec-1] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 01:34:15.203 [http-nio-8080-exec-3] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 01:34:15.219 [http-nio-8080-exec-4] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 01:34:15.228 [http-nio-8080-exec-4] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 01:35:09.796 [http-nio-8080-exec-6] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 01:35:09.805 [http-nio-8080-exec-7] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 01:35:09.811 [http-nio-8080-exec-7] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 01:37:49.467 [http-nio-8080-exec-9] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 01:37:49.487 [http-nio-8080-exec-10] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 01:37:49.495 [http-nio-8080-exec-10] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 01:38:29.443 [http-nio-8080-exec-2] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 01:38:29.461 [http-nio-8080-exec-3] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 01:38:29.472 [http-nio-8080-exec-3] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 01:40:34.049 [http-nio-8080-exec-5] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 01:40:34.060 [http-nio-8080-exec-6] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 01:40:34.065 [http-nio-8080-exec-6] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 01:42:29.778 [http-nio-8080-exec-8] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 01:42:29.796 [http-nio-8080-exec-9] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 01:42:29.802 [http-nio-8080-exec-9] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 01:42:51.848 [http-nio-8080-exec-1] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 01:42:51.859 [http-nio-8080-exec-2] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 01:42:51.862 [http-nio-8080-exec-2] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 01:44:57.455 [http-nio-8080-exec-4] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 01:44:57.462 [http-nio-8080-exec-5] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 01:44:57.465 [http-nio-8080-exec-5] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 01:45:56.547 [http-nio-8080-exec-7] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 01:45:56.560 [http-nio-8080-exec-8] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 01:45:56.565 [http-nio-8080-exec-8] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 01:46:44.489 [http-nio-8080-exec-10] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 01:46:44.508 [http-nio-8080-exec-1] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 01:46:44.514 [http-nio-8080-exec-1] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 01:48:05.322 [http-nio-8080-exec-3] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 01:48:05.333 [http-nio-8080-exec-4] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 01:48:05.337 [http-nio-8080-exec-4] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 01:48:21.941 [http-nio-8080-exec-6] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 01:48:21.959 [http-nio-8080-exec-7] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 01:48:21.967 [http-nio-8080-exec-7] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 01:49:19.408 [http-nio-8080-exec-9] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 01:49:19.420 [http-nio-8080-exec-10] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 01:49:19.427 [http-nio-8080-exec-10] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 01:49:30.776 [http-nio-8080-exec-2] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 01:49:30.785 [http-nio-8080-exec-3] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 01:49:30.793 [http-nio-8080-exec-3] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 01:54:36.146 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-09 01:54:36.152 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-09 11:30:55.135 [main] WARN  org.springframework.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5026 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2021-12-09 11:31:00.167 [main] INFO  com.course.Application - Starting Application using Java 1.8.0_112 on zhangleideMacBook-Pro.local with PID 23801 (/Users/zhanglei/Desktop/kira/workspace/AutoTest/Chapter13/target/classes started by zhanglei in /Users/zhanglei/Desktop/kira/workspace/AutoTest)
+2021-12-09 11:31:00.168 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2021-12-09 11:31:01.051 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2021-12-09 11:31:01.629 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-09 11:31:01.641 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-09 11:31:01.642 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-12-09 11:31:01.728 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-09 11:31:01.728 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1517 ms
+2021-12-09 11:31:02.484 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-12-09 11:31:02.929 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-09 11:31:02.930 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-12-09 11:31:02.948 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-12-09 11:31:02.982 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-12-09 11:31:03.317 [main] INFO  com.course.Application - Started Application in 23.809 seconds (JVM running for 29.903)
+2021-12-09 11:31:31.069 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-09 11:31:31.069 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-09 11:31:31.071 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-12-09 11:31:31.159 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-09 11:31:31.359 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-09 11:31:31.428 [http-nio-8080-exec-1] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 11:31:31.472 [http-nio-8080-exec-2] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 11:31:31.487 [http-nio-8080-exec-2] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 11:31:31.873 [http-nio-8080-exec-3] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 11:31:31.898 [http-nio-8080-exec-3] INFO  com.course.controller.UserController - 更新数据的条目数为:1
+2021-12-09 11:50:53.652 [http-nio-8080-exec-5] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 11:50:53.681 [http-nio-8080-exec-6] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 11:50:53.693 [http-nio-8080-exec-6] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 11:50:53.724 [http-nio-8080-exec-7] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 11:50:53.729 [http-nio-8080-exec-7] INFO  com.course.controller.UserController - 更新数据的条目数为:1
+2021-12-09 11:50:53.742 [http-nio-8080-exec-8] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 11:50:53.745 [http-nio-8080-exec-8] INFO  com.course.controller.UserController - 更新数据的条目数为:1
+2021-12-09 11:50:53.753 [http-nio-8080-exec-9] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 13:11:09.704 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h19m38s59ms).
+2021-12-09 13:28:38.287 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Retrograde clock change detected (housekeeper delta=28s427ms), soft-evicting connections from pool.
+2021-12-09 14:15:21.020 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m42s560ms).
+2021-12-09 15:07:07.250 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s521ms).
+2021-12-09 15:11:36.737 [http-nio-8080-exec-1] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 15:11:36.770 [http-nio-8080-exec-2] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 15:11:36.777 [http-nio-8080-exec-2] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 15:11:37.213 [http-nio-8080-exec-3] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 15:11:37.220 [http-nio-8080-exec-3] INFO  com.course.controller.UserController - 更新数据的条目数为:1
+2021-12-09 15:11:37.244 [http-nio-8080-exec-4] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 15:11:37.247 [http-nio-8080-exec-4] INFO  com.course.controller.UserController - 更新数据的条目数为:1
+2021-12-09 15:11:37.258 [http-nio-8080-exec-5] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 15:30:37.474 [http-nio-8080-exec-7] INFO  com.course.controller.UserController - 查询到的结果:1
+2021-12-09 15:30:37.495 [http-nio-8080-exec-8] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 15:30:37.498 [http-nio-8080-exec-8] INFO  com.course.controller.UserController - 添加用户数量：1
+2021-12-09 15:30:37.832 [http-nio-8080-exec-9] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 15:30:37.835 [http-nio-8080-exec-9] INFO  com.course.controller.UserController - 更新数据的条目数为:1
+2021-12-09 15:30:37.844 [http-nio-8080-exec-10] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 15:30:37.846 [http-nio-8080-exec-10] INFO  com.course.controller.UserController - 更新数据的条目数为:1
+2021-12-09 15:30:37.851 [http-nio-8080-exec-1] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-09 15:46:49.731 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-09 15:46:49.736 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
