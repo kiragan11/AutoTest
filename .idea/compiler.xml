@@ -24,7 +24,7 @@
       <module name="Chapter10" options="-parameters" />
       <module name="Chapter11" options="-parameters" />
       <module name="Chapter12" options="-parameters" />
-      <module name="Chapter13" options="-parameters" />
+      <module name="Chapter13" options="-parameters -exdirs $PROJECT_DIR$/Chapter13/lib" />
       <module name="Chapter6" options="-parameters" />
       <module name="Chapter9" options="-parameters" />
     </option>

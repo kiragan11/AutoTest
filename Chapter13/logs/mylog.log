@@ -626,3 +626,5 @@ java.sql.SQLException: Access denied for user 'root'@'localhost' (using password
 2021-12-16 10:44:46.743 [http-nio-8888-exec-4] INFO  com.course.controller.UserController - cookies验证通过
 2021-12-16 10:44:46.744 [http-nio-8888-exec-4] INFO  com.course.controller.UserController - 更新数据的条目数为:1
 2021-12-16 10:44:46.750 [http-nio-8888-exec-5] INFO  com.course.controller.UserController - cookies验证通过
+2021-12-16 11:40:18.163 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-16 11:40:18.178 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
